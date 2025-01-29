@@ -23,7 +23,7 @@ def my_function2(**kwargs):
    for key, value in kwargs.items():
       print(f"{key} = {value}")
 
-my_function2(name="John", age=30, city="New York")
+my_function2(name="Sukhi", age=30, city="Kathmandu")
 
 def my_function3(*args, **kwargs):
    
@@ -37,5 +37,5 @@ def my_function3(*args, **kwargs):
     for key, value in kwargs.items():
       print(f"{key} = {value}")
 
-      
-my_function3(1, True, "Hello", "world", name="John", age=25, address="Janakpur")
+
+my_function3(1, True, "Hello", "world", name="Sukhi", age=25, address="Janakpur")
